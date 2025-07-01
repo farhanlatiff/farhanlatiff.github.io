@@ -3190,7 +3190,7 @@ button:disabled,
   -webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-  background-color: #f5f6f7;
+  background-color: #292929; 
   font-size: 0.9em;
   position: relative;
   width: 26em;
@@ -3694,7 +3694,7 @@ select,
 textarea,
 .button,
 .button.primary {
-  background-color: #616161 !important;
+  background-color: #292929 !important;
   color: #ffffff !important;
   border-color: rgba(255, 255, 255, 0.2) !important;
 }
