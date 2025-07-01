@@ -3668,59 +3668,41 @@ button:disabled,
 
 /* ======= DARK THEME OVERRIDES ======= */
 
-body,
-#wrapper,
-#main,
-header,
-section,
-article,
-footer {
-  background-color: #121212 !important;
+/* === Custom Dark Theme Override === */
+body, html, #wrapper, #main, section, header, footer {
+  background-color: #292929 !important;
+  color: #ffffff !important;
+}
+
+strong, b, h1, h2, h3, h4, h5, h6 {
   color: #ffffff !important;
 }
 
 a {
-  color: #4fc3f7 !important;
-  /* light blue for links */
-  border-bottom: dotted 1px #4fc3f7;
+  color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
 }
-
 a:hover {
-  color: #81d4fa !important;
-  border-bottom-color: #81d4fa;
-}
-
-strong,
-b,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #ffffff !important;
-}
-
-ul.icons li .icon,
-.icon:before {
-  color: #ffffff !important;
+  color: #cccccc !important;
+  border-bottom-color: #cccccc !important;
 }
 
 .box,
-blockquote,
-table tbody tr,
+article,
 input,
+select,
 textarea,
-select {
-  background-color: #1e1e1e !important;
-  border-color: rgba(255, 255, 255, 0.1) !important;
+.button,
+.button.primary {
+  background-color: #616161 !important;
   color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
 }
 
-hr,
-.border,
-.table-wrapper {
-  border-color: rgba(255, 255, 255, 0.2) !important;
+#header,
+#footer {
+  background-color: #292929 !important;
+  color: #ffffff !important;
 }
 
 input::placeholder,

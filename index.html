@@ -7,11 +7,12 @@
 <html>
 
 <head>
-	<title>Editorial by HTML5 UP</title>
+	<title>Home</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
+
 
 <body class="is-preload">
 
@@ -24,14 +25,19 @@
 
 				<!-- Header -->
 				<header id="header">
-					<a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a>
+					<a href="index.html" class="logo">Home</a>
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a>
-						</li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+						<ul class="icons">
+							<li id="email-link">
+								<a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a>
+							</li>
+							<li><a href="https://www.linkedin.com/in/farhan-latiff/"
+									class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://app.hackthebox.com/profile/your-htb-id"
+									class="icon solid fa-terminal"><span class="label">Hack The Box</span></a></li>
+
+						</ul>
+
 					</ul>
 				</header>
 
@@ -39,27 +45,28 @@
 				<section id="banner">
 					<div class="content">
 						<header>
-							<h1>Hi, I’m Editorial<br />
-								by HTML5 UP</h1>
-							<p>A free and fully responsive site template</p>
+							<h1>Hello, Welcome!<br /></h1>
+							<p>Software developer & Cybersecurity Enthusiast</p>
 						</header>
-						<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante
-							interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet
-							egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-							Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
+						<p>Software Engineering student with a strong passion for cybersecurity. Driven by a deep
+							curiosity and commitment to learning, I aim to merge my technical skills in software
+							engineering with my enthusiasm for cybersecurity to contribute to the ever-evolving tech
+							landscape
+
+						</p>
 						<ul class="actions">
 							<li><a href="#" class="button big">Learn More</a></li>
 						</ul>
 					</div>
 					<span class="image object">
-						<img src="images/pic10.jpg" alt="" />
+						<img src="images/cat1.jpeg" alt="just a cat" />
 					</span>
 				</section>
 
 				<!-- Section -->
 				<section>
 					<header class="major">
-						<h2>Erat lacinia</h2>
+						<h2>Tech Stacks</h2>
 					</header>
 					<div class="features">
 						<article>
@@ -267,6 +274,17 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script>
+		const user = "farhanlatiff";
+		const domain = "outlook.com";
+		const email = user + "@" + domain;
+
+		const link = document.getElementById("email-link").querySelector("a");
+		link.href = "mailto:" + email;
+	</script>
+
+
+
 
 </body>
 
